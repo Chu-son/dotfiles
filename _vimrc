@@ -65,7 +65,7 @@ if s:dein_enabled && dein#tap("unite.vim")
   nnoremap <silent> [unite]b :Unite buffer<CR>
 endif
 
-filetype plugin on
+filetype on
 
 set number
 set title
