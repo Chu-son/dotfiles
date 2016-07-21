@@ -1,4 +1,4 @@
-# ˆê”Êİ’è
+# ä¸€èˆ¬è¨­å®š
 
 [[plugins]]
 repo = 'Shougo/neocomplete.vim'
@@ -10,17 +10,17 @@ repo = 'Shougo/neocomplete.vim'
 repo = 'davidhalter/jedi-vim'
 on_ft = 'python'
 hook_add = '''
-  let g:jedi#use_tabs_not_buffers = 1 #•âŠ®‚ÅŸ‚ÌŒó•â‚Éi‚Ş‚Æ‚«‚Étab‚ğg‚¦‚é‚Æ‚¢‚¤İ’è‚É‚µ‚½‚Â‚à‚è‚Å‚·‚ª‚Å‚«‚Ü‚¹‚ñ‚Å‚µ‚½B
-  let g:jedi#completions_command = "<C-Space>"    # •âŠ®ƒL[‚Ìİ’è‚±‚Ìê‡‚ÍCtrl+Space
-  let g:jedi#popup_select_first = 0 #1ŒÂ–Ú‚ÌŒó•â‚ª“ü—Í‚³‚ê‚é‚Á‚Ä‚¢‚¤İ’è‚ğ‰ğœ
-  let g:jedi#popup_on_dot = 0 # .‚ğ“ü—Í‚·‚é‚Æ•âŠ®‚ªn‚Ü‚é‚Æ‚¢‚¤İ’è‚ğ‰ğœ
+  let g:jedi#use_tabs_not_buffers = 1 #è£œå®Œã§æ¬¡ã®å€™è£œã«é€²ã‚€ã¨ãã«tabã‚’ä½¿ãˆã‚‹ã¨ã„ã†è¨­å®šã«ã—ãŸã¤ã‚‚ã‚Šã§ã™ãŒã§ãã¾ã›ã‚“ã§ã—ãŸã€‚
+  let g:jedi#completions_command = "<C-Space>"    # è£œå®Œã‚­ãƒ¼ã®è¨­å®šã“ã®å ´åˆã¯Ctrl+Space
+  let g:jedi#popup_select_first = 0 #1å€‹ç›®ã®å€™è£œãŒå…¥åŠ›ã•ã‚Œã‚‹ã£ã¦ã„ã†è¨­å®šã‚’è§£é™¤
+  let g:jedi#popup_on_dot = 0 # .ã‚’å…¥åŠ›ã™ã‚‹ã¨è£œå®ŒãŒå§‹ã¾ã‚‹ã¨ã„ã†è¨­å®šã‚’è§£é™¤
   let g:jedi#goto_command = "<leader>d"
   let g:jedi#goto_assignments_command = "<leader>g"
   let g:jedi#goto_definitions_command = ""
   let g:jedi#documentation_command = "K"
   let g:jedi#usages_command = "<leader>n"
-  let g:jedi#rename_command = "<leader>R" #quick-run‚Æ‹£‡‚µ‚È‚¢‚æ‚¤‚É‘å•¶šR‚É•ÏX. README‚¾‚Æ<leader>r
-  autocmd FileType python setlocal completeopt-=preview #ƒ|ƒbƒvƒAƒbƒv‚ğ•\¦‚µ‚È‚¢
+  let g:jedi#rename_command = "<leader>R" #quick-runã¨ç«¶åˆã—ãªã„ã‚ˆã†ã«å¤§æ–‡å­—Rã«å¤‰æ›´. READMEã ã¨<leader>r
+  autocmd FileType python setlocal completeopt-=preview #ãƒãƒƒãƒ—ã‚¢ãƒƒãƒ—ã‚’è¡¨ç¤ºã—ãªã„
 '''
 
 [[plugins]]

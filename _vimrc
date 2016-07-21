@@ -44,7 +44,7 @@ if s:use_dein && v:version >= 704
     let s:lazy_toml = s:dein_dir . '/dein_lazy.toml'
 
 
-    " TOMLファイルにpluginを記述
+    " TOML繝輔ぃ繧､繝ｫ縺ｫplugin繧定ｨ倩ｿｰ
     call dein#load_toml(s:toml, {'lazy': 0})
     call dein#load_toml(s:lazy_toml, {'lazy': 1})
 
@@ -52,6 +52,8 @@ if s:use_dein && v:version >= 704
     call dein#save_state()
   endif
 
+
+  filetype plugin indent on
 
   " Installation check.
   if dein#check_install()
@@ -65,7 +67,10 @@ if s:dein_enabled && dein#tap("unite.vim")
   nnoremap <silent> [unite]b :Unite buffer<CR>
 endif
 
-filetype on
+filetype off
+
+colorscheme default 
+"set t_Co=256
 
 set number
 set title
@@ -82,9 +87,17 @@ set virtualedit=block
 set whichwrap=b,s,[,],<,>
 set backspace=indent,eol,start
 set wildmenu
-colorscheme default
-inoremap <C-j> <esc>
 set nobackup
+set nobackup
+set noswapfile
+
+set encoding=utf-8
+set fileencodings=utf-8
+set fileformats=unix,dos,mac
+
+syntax on
+
+inoremap <C-j> <esc>
 nmap <CR> i<CR><ESC>
 nnoremap <F3> :noh<CR>
 nnoremap <leader>l :call Flake8()

@@ -8,10 +8,21 @@ repo = 'Shougo/unite.vim'
 repo = 'tomasr/molokai'
 
 [[plugins]]
-repo = 'nathanaelkane/vim-indent-guides'
+repo = 'jonathanfilip/vim-lucius'
+
+#[[plugins]]
+#repo = 'nathanaelkane/vim-indent-guides'
+#hook_add = '''
+#    let g:indent_guides_enable_on_vim_startup = 1
+#    let g:indent_guides_auto_colors = 0
+#    autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#5aff5a   ctermbg=24
+#    autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
+#'''
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
 hook_add = '''
-    let g:indent_guides_enable_on_vim_startup = 1
-    let g:indent_guides_auto_colors = 0
-    autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
-    autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
+    let g:indentLine_color_term = 000
+    let g:indentLine_color_gui = '#008090'
+    let g:indentLine_char = '￤'
 '''
