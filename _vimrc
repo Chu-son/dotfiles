@@ -88,7 +88,7 @@ set whichwrap=b,s,[,],<,>
 set backspace=indent,eol,start
 set wildmenu
 set nobackup
-set nobackup
+set noundofile
 set noswapfile
 
 set encoding=utf-8
