@@ -1,0 +1,36 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'Shougo/unite.vim'
+
+[[plugins]]
+repo = 'tomasr/molokai'
+
+[[plugins]]
+repo = 'jonathanfilip/vim-lucius'
+
+[[plugins]]
+repo = 'vim-scripts/summerfruit256.vim'
+
+[[plugins]]
+repo = 'vim-scripts/pyte'
+
+[[plugins]]
+repo = 'altercation/vim-colors-solarized'
+
+#[[plugins]]
+#repo = 'nathanaelkane/vim-indent-guides'
+#hook_add = '''
+#    let g:indent_guides_enable_on_vim_startup = 1
+#    let g:indent_guides_auto_colors = 0
+#    autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#5aff5a   ctermbg=24
+#    autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
+#'''
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+hook_add = '''
+    let g:indentLine_color_term = 000
+    let g:indentLine_color_gui = '#008090'
+'''
