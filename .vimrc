@@ -8,7 +8,7 @@ endif
 
 " Prepare .vim dir
 "let s:vimdir = '~/vimfiles/.vim'
-let s:vimdir = expand('~/vimfiles/.vim')
+let s:vimdir = expand('~/.vim')
 if has('vim_starting')
   if ! isdirectory(s:vimdir)
     call system('mkdir ' . s:vimdir)
