@@ -78,14 +78,11 @@ colorscheme lucius
 set background=dark
 "set t_Co=256
 
-set number
-set title
+" 表示設定
+set number "行番号表示
+set title "編集中のファイル名表示
 set ambiwidth=double
-set tabstop=4
-set expandtab
-set shiftwidth=4
-set smartindent
-set list
+set list "タブ空白改行を可視化
 set nrformats-=octal
 set hidden
 set history=50
@@ -97,10 +94,28 @@ set nobackup
 set noundofile
 set noswapfile
 set hlsearch
+set showmatch "括弧入力時に対応ずる括弧を示す
+set laststatus=2 "ステータスを表示
 
+"文字、カーソル設定
 set encoding=utf-8
 set fileencodings=utf-8
 set fileformats=unix,dos,mac
+set smartindent
+set tabstop=4
+set expandtab
+set shiftwidth=4
+
+" 検索設定
+set ignorecase "大文字、小文字の区別をしない
+set smartcase "大文字が含まれている場合は区別する
+set wrapscan "検索時に最後まで行ったら最初に戻る
+set hlsearch "検索した文字を強調
+set incsearch "インクリメンタルサーチを有効にする
+
+" マウス設定
+set mouse=a
+set ttymouse=xterm2
 
 syntax on
 
