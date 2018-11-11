@@ -106,6 +106,9 @@ set tabstop=4
 set expandtab
 set shiftwidth=4
 
+"pythonで#コメントのインデント保持
+autocmd BufRead *.py inoremap # X<c-h>#
+
 " 検索設定
 set ignorecase "大文字、小文字の区別をしない
 set smartcase "大文字が含まれている場合は区別する
