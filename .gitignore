@@ -3,3 +3,6 @@
 !/dotfiles/
 !/dotfiles/**
 ! .gitignore
+
+**/.cache
+**/repos
