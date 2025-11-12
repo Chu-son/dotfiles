@@ -120,20 +120,3 @@ fi
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 shopt -u histappend
 
-# # >>> conda initialize >>>
-# # !! Contents within this block are managed by 'conda init' !!
-# __conda_setup="$('/home/chuson/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-# if [ $? -eq 0 ]; then
-#     eval "$__conda_setup"
-# else
-#     if [ -f "/home/chuson/anaconda3/etc/profile.d/conda.sh" ]; then
-#         . "/home/chuson/anaconda3/etc/profile.d/conda.sh"
-#     else
-#         export PATH="/home/chuson/anaconda3/bin:$PATH"
-#         #export PATH="$PATH:/home/chuson/anaconda3/bin"
-#     fi
-# fi
-# unset __conda_setup
-# # <<< conda initialize <<<
-
-. /home/chuson/anaconda3/etc/profile.d/conda.sh
